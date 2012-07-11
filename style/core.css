@@ -1,0 +1,1228 @@
+/* ---------------- Font settings ---------------- */
+
+body { 
+    font-family: Helvetica, "Arial", Tahoma, sans-serif;
+    color: #000000;
+    padding: 0;
+    background: #0D6606 url([[pix:theme|crest]]) no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+}
+
+#wrapper {
+    padding: 10px;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea { 
+    font-family: Helvetica, "Arial", Tahoma, sans-serif;
+    color: #000000;
+    padding: 2px;
+}
+
+a { 
+    color: #0D6606;
+}
+
+a:hover { 
+    text-decoration: none;
+    color: #ab8a2d;
+}
+
+#page-admin-index .copyright {
+    color: #FFFFFF;
+}
+
+#page-admin-index .copyright a {
+    color: #ab8a2d;
+}
+
+#adminsettings fieldset {
+    background: #FFFFFF;
+}
+
+/* ---------------- Header banner ---------------- */
+
+/* Logo at top of page */
+/* Change logo_placeholder to the name of your logo file in the pix directory */
+/* Change the height value to the height of your logo image */
+
+#page-header { 
+    background: url([[pix:theme|banner]]) no-repeat 0 100%;
+    background-position: top left;
+    height: 150px;
+}
+
+/* Login info at the top */
+
+.headermenu .logininfo {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.headermenu .logininfo a {
+    color: #ab8a2d;
+    font-weight: bold;
+}
+
+.headermenu .logininfo a:hover {
+    color: #ab8a2d;
+    font-weight: bold;
+}
+
+/* ---------------- Navigation breadcrumb bar---------------- */
+
+.navbar {
+    clear: both;
+    overflow: hidden;
+    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x bottom left;
+    border: 1px #B3B3B3 solid;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/* Unlinked text in navbar */
+
+.breadcrumb ul {
+    color: #000000;
+}
+
+/* Links in navbar */
+
+.navbar a {
+    color: #0D6606;
+}
+
+.navbar a:hover {
+    color: #0D6606;
+    text-decoration: underline;
+}
+
+/* ---------------- Front page course list ---------------- */
+
+#page-site-index .subscribelink a {
+    color: #FFFFFF;
+}
+
+#page-site-index .forumnodiscuss {
+    color: #FFFFFF;
+}
+
+
+#page-site-index .headingblock {
+    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x top left;
+    border: 1px #B3B3B3 solid;
+    margin-bottom: 9px;
+    margin-top: 9px;
+    padding-left: 6px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#page-site-index div.course_category_tree {
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 6px;
+}
+
+/* Course search box */
+
+#coursesearch, #coursesearch2 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Adds some space between category and number of courses within category */
+
+.categorylist .category .numberofcourse {
+    font-size: 0.85em;
+    font-style: normal;
+    margin-left: 10px;
+    color: #B3B3B3;
+}
+
+#page-course-category .generalbox {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* ---------------- Course categories index ---------------- */
+
+/* Category list */
+
+.categorybox {
+    border: medium none;
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+}
+
+/* Course list */
+
+.coursebox {
+    border: 1px #B3B3B3 solid;
+    background: #FFFFFF;
+    margin-bottom: 15px;
+    width: 96%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+}
+
+/* ---------------- Profile ---------------- */
+
+.descriptionbox {
+    border: 1px solid #B3B3B3;
+    background: #FFFFFF;
+    margin-left: 110px;
+    padding: 10px;
+}
+
+/* ---------------- Messaging ---------------- */
+
+.messagearea, .contactselector {
+    background: #FFFFFF;
+}
+
+/* ---------------- Calendar ---------------- */
+
+.maincalendar {
+    background: #FFFFFF;
+}
+
+/* ---------------- Blog ---------------- */
+
+.blog_entry {
+    background: #FFFFFF;
+}
+
+/* ---------------- Tags ---------------- */
+
+.managelink a {
+    color: #ab8a2d;
+}
+
+#tag-management-box a {
+    color: #ab8a2d;
+}
+
+.relatedpages a {
+    color: #ab8a2d;
+}
+
+/* ---------------- Blocks ---------------- */
+
+/* Block heading font */
+
+.block .header h2 {
+    margin: 0px;
+    font-size: 0.9em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 2px;
+    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x top left;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/* Hide and dock action buttons in block */
+
+.block .header .block_action {
+    float: right;
+    margin-right: 2px;
+    vertical-align: top;
+}
+
+/* Margin around the dock button, setting this larger does funny things to the hide button */
+
+.block .header .block_action input {
+    padding: 0;
+    margin-right: 8px;
+    margin-top: 6px;
+}
+
+/* List items in block */
+
+.block .content {
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 0.9em;
+}
+
+.block_tree .tree_item {
+    margin: 0;
+    padding: 0;
+}
+
+.block_settings .block_tree li ul {
+    margin: 0;
+    padding-left: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+/* Command editing buttons */
+
+.block .commands {
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+/* General block settings */
+
+.block {
+    border: 1px #B3B3B3 solid;
+    margin-bottom: 1em;
+    background: #FFFFFF;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+/* Links in the blocks */
+
+.block a {
+    color: #0D6606;
+}
+
+.block a:hover {
+    color: #ab8a2d;
+}
+
+/* Moving blocks */
+
+.blockmovetarget {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #FF8000;
+    display: block;
+    height: 1em;
+    margin-bottom: 1em;
+}
+
+/* Moving this block (Cancel) text */
+
+.blockannotation {
+    color: #000000;
+}
+
+.blockannotation a {
+    color: #0000FF;
+}
+
+.blockannotation a:hover {
+    color: #FF8000;
+}
+
+/* Remove items from navigation block */
+/* Remove "My home" */
+/* .block_navigation .type_setting.depth_2 { display: none; } */
+
+/* Remove "Site Pages" */
+/* .block_navigation .type_course.depth_2  { display: none; } */
+
+/* Remove "My Profile" */
+/* .block_navigation .type_user.depth_2 { display: none; } */
+
+/* Remove "Courses" */
+/* .block_navigation .type_system.depth_2 { display: none; } */
+
+/* ---------------- Course ---------------- */
+
+/* "Topic outline" heading block */
+
+.headingblock { 
+    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x top left;
+    font-weight: normal;
+    border: 1px #B3B3B3 solid;
+    padding: 2px 6px;
+    color: #000000;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.path-course-view .headingblock {
+    margin-bottom: 0px;
+}
+
+/* The "Your progress" text */
+
+.path-course-view .completionprogress {
+    float: right;
+    color: #000000;
+    margin-top: 2px;
+}
+
+/* Topic box content area */
+
+.course-content .content {
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+/* General topic */
+
+.course-content .main {
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+}
+
+/* Highlighted topic */
+
+.course-content .current {
+    background: #ab8a2d;
+    border: 1px #B3B3B3 solid;
+}
+
+/* Hidden topic */
+
+.course-content .hidden {
+    background: #FFFFFF;
+    border: 2px #B3B3B3 dashed;
+    opacity: 0.5;
+}
+
+/* Completion tick boxes */
+
+.path-course-view li.activity span.autocompletion, .path-course-view li.activity form.togglecompletion {
+    display: inline;
+    padding: 5px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+/* On a dark or patterned body background, it is important
+  to set this to something light. This controls the color
+  behind form inputs such as labels */
+
+.mform fieldset div {
+    margin: 0 10px 10px;
+    background: #FFFFFF;
+}
+
+.initialbar a {
+    color: #ab8a2d;
+}
+
+.initialbar {
+    color: #FFFFFF;
+}
+
+.userenrolment a {
+    color: #ab8a2d;
+}
+
+.userenrolment thead {
+    color: #FFFFFF;
+}
+
+#page-report-outline-user .section {
+    background: #FFFFFF;
+}
+
+.paging {
+    color: #000000;
+}
+
+.paging a {
+    color: #ab8a2d;
+}
+
+.info {
+    color: #000000;
+}
+
+.noticebox a, .expired a, .notopenyet a, .notifysuccess a, .notifyproblem a, .errorbox a, .errormessage p a, .errorcode a, .continuebutton a, .singlebutton a, .buttons a, .singleselect a {
+    color: #ab8a2d;
+}
+
+/* ---------------- Activities ---------------- */
+
+/* Introduction box in activities */
+#intro,
+.path-mod-assignment #intro,
+.path-mod-forum #intro {
+    border: 1px #B3B3B3 solid;
+    margin: 2% 10%;
+    margin-top: 10px;
+    padding: 5px;
+    background: #FFFFFF;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Backgrounds behind some text within activities */
+
+.generalbox {
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Group selector */
+
+.groupselector {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.reportlink a {
+    color: #ab8a2d;
+}
+
+#page-report-outline-index .loginfo {
+    color: #FFFFFF;
+}
+
+#page-report-participation-index .participationselectform label {
+    color: #FFFFFF;
+}
+
+.noticebox,
+.expired,
+.notopenyet,
+.notifysuccess,
+.notifyproblem,
+.errorbox,
+.errormessage p,
+.errorcode a,
+.continuebutton,
+.singlebutton,
+.buttons,
+.singleselect {
+    color: #FFFFFF;
+}
+
+h2.main, h3.main, h4.main {
+    color: #FFFFFF;
+}
+
+.mform fieldset legend {
+    background: #FFFFFF;
+}
+
+.mform fieldset {
+    background: #FFFFFF;
+}
+
+#page-content #region-main-box .region-content {
+    color: #000000;
+}
+
+.allcoursegrades a {
+    color: #ab8a2d;
+}
+
+/* ---------------- Forum ---------------- */
+
+/* Highlighting unread posts at the course and discussion table level */
+
+.path-course-view .unread a {
+    background: #FFCC66;
+    color: #000000;
+}
+
+.path-mod-forum .forumheaderlist .unread a {
+    background: #FFCC66;
+    color: #000000;
+}
+
+/* Discussion view table */
+
+.path-mod-forum .forumheaderlist th {
+    border: 1px #B3B3B3 solid;
+    text-align: left;
+    background: #E3E3E3;
+}
+
+.path-mod-forum .forumheaderlist td {
+    border: 1px #B3B3B3 solid;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+/* Discussion threads */
+
+/* Border around the whole reply */
+
+.forumpost {
+    border: 1px #B3B3B3 solid;
+}
+
+/* General reply boxes */
+
+.forumpost .row {
+    background: #E3E3E3;
+}
+
+.forumpost .content {
+    background: #FFFFFF;
+}
+
+.forumpost .commands {
+    background: #E3E3E3;
+    padding-right: 5px;
+}
+
+/* Highlighting unread posts */
+
+.forumpost.unread {
+    border: 1px #000000 solid;
+}
+
+.forumpost.unread .row {
+    background: #FFCC66;
+}
+
+.forumpost.unread .content {
+    background: #FFFFFF;
+}
+
+.forumpost.unread .commands {
+    background: #FFCC66;
+    padding-right: 5px;
+}
+
+#intro {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+/* ---------------- Assignment ---------------- */
+
+#online, #onlineenter {
+    border: 1px #B3B3B3 solid;
+    margin-top: 1em;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+
+/* ---------------- Choice ---------------- */
+
+/* Background behind choices */
+
+.path-mod-choice .horizontal, .path-mod-choice .vertical {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: none;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 6px;
+}
+
+.path-mod-choice .results td {
+    border: 1px #B3B3B3 solid;
+    background: #FFFFFF;
+}
+
+.path-mod-choice .lastrow td {
+    border: 1px #B3B3B3 solid;
+}
+
+.path-mod-choice .results .header, .path-mod-choice td {
+    border: 1px #B3B3B3 solid;
+    background: #E3E3E3;
+}
+
+.path-mod-choice h2 {
+    color: #FFFFFF;
+}
+
+.path-mod-choice .responseaction a {
+    color: #ab8a2d;
+}
+
+.path-mod-choice .responseaction {
+    color: #FFFFFF;
+}
+
+/* ---------------- Database ---------------- */
+
+.path-mod-data h2.main, h3.main, h4.main {
+    margin-bottom: 2px;
+    padding: 0.5em 0 0.5em;
+    text-align: center;
+    background: #FFFFFF;
+    color: #000000;
+    border: none;
+}
+
+.datapreferences {
+    background: #FFFFFF;
+    border: none;
+}
+
+.path-mod-data .mdl-left a {
+    color: #ab8a2d;
+}
+
+.path-mod-data .paging, .littleintro, .fieldadd, .sortdefault {
+    color: #FFFFFF;
+}
+
+/* ---------------- Feedback ---------------- */
+
+/* Answers required text */
+
+.feedback_required_mark {
+    color: #FF0000;
+}
+
+/* Info on anonymous mode */
+
+.box .feedback_anonymousinfo {
+    color: #000000;
+}
+
+/* Heading */
+
+.path-mod-feedback h2.main, h3.main, h4.main {
+    text-align: center;
+    background: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 0.5em 0 0.5em;
+    margin-bottom: 2px;
+}
+
+.path-mod-feedback .generalbox {
+    border: none;
+}
+
+/* ---------------- Glossary ---------------- */
+
+/* Glossary entries */
+
+.path-mod-glossary .entrybox {
+    border: 1px #B3B3B3 solid;
+    background: #FFFFFF;
+    width: 99%;
+}
+
+/* "Browse by..." menu */
+
+.tabtree .tabrow0 li a {
+    border: 1px #B3B3B3 solid;
+    background: #FFFFFF;
+}
+
+.tabtree .tabrow0 ul, .tabtree .tabrow0 div {
+    border-top: 2px #B3B3B3 solid;
+    font-weight: normal;
+    margin: 0;
+}
+
+.glossarysearchbox {
+    color: #FFFFFF;
+}
+
+/* ---------------- Lesson ---------------- */
+
+.path-mod-lesson h2.main, h3.main, h4.main {
+    margin-bottom: 2px;
+    padding: 0.5em 0 0.5em;
+    text-align: center;
+    background: #FFFFFF;
+    color: #000000;
+    border: none;
+}
+
+.path-mod-lesson div.box.contents {
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+}
+
+.path-mod-lesson .center a {
+    color: #ab8a2d;
+}
+
+.path-mod-lesson .center {
+    color: #FFFFFF;
+}
+
+/* ---------------- Quiz ---------------- */
+
+/* Quiz heading */
+
+.path-mod-quiz h2.main, h3.main, h4.main {
+    margin-bottom: 2px;
+    padding: 0.5em 0 0.5em;
+    text-align: center;
+    background: #FFFFFF;
+    color: #000000;
+    border: none;
+}
+
+/* Question contents */
+
+.que .formulation {
+    background: #FFFFFF;
+    border: none;
+}
+
+/* Question information box */
+
+.que .info {
+    background: #E3E3E3;
+    float: left;
+    margin-bottom: 1.8em;
+    padding: 0.5em;
+    width: 6em;
+}
+
+/* Review of quiz table before final submit, and review of attempts before starting quiz */
+
+#attempts .header, .generaltable .header {
+    background: #E3E3E3;
+    border-bottom-width: 2px;
+    border: 1px solid #B3B3B3;
+}
+
+#attempts th, #attempts td, .generaltable th, .generaltable td {
+    border: 1px solid #B3B3B3;
+    border-collapse: collapse;
+    background: #FFFFFF;
+}
+
+.quizattemptcounts p {
+    color: #FFFFFF;
+}
+
+.quizattemptcounts {
+    color: #FFFFFF;
+}
+
+.quizattemptcounts a {
+    color: #ab8a2d;
+}
+
+#page-mod-quiz-report div#commands a {
+    color: #ab8a2d;
+}
+
+#page-mod-quiz-view .quizinfo p {
+    color: #FFFFFF;
+}
+
+/* Table at the top of the summmary page */
+
+table.quizreviewsummary th.cell {
+    background: #E3E3E3;
+    border: 1px solid #B3B3B3;
+    font-weight: bold;
+    padding: 1px 0.5em 1px 1em;
+    text-align: right;
+    width: 10em;
+}
+
+table.quizreviewsummary td.cell {
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    padding: 1px 1em 1px 0.5em;
+    text-align: left;
+}
+
+.path-mod-quiz .mform fieldset {
+    border: 1px #B3B3B3 solid;
+    background: #FFFFFF;
+}
+
+/* Editing quiz page */
+
+#page-mod-quiz-edit .questionbankwindow div.header a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#page-mod-quiz-edit .questionbankwindow div.header {
+    background: none;
+    background-image: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 0.2em;
+}
+
+#page-mod-quiz-edit h2.main {
+    background: none;
+    color: #000000;
+}
+
+#page-mod-quiz-edit .statusbar {
+    color: #000000;
+}
+
+#page-mod-quiz-edit .invisiblefieldset {
+    color: #000000;
+}
+
+#page-mod-quiz-edit .singleselect {
+    color: #000000;
+}
+
+.categoryquestionscontainer {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.questionbankwindow {
+    color: #FFFFFF;
+}
+
+/* Feedback box */
+
+.que .outcome {
+    background: none repeat scroll 0 0 #FFF3BF;
+}
+
+/* ---------------- Survey ---------------- */
+
+/* Question headings */
+
+h3.questiontext {
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+    width: 90%;
+}
+
+/* Question contents */
+
+.path-mod-survey table {
+    background: #FFFFFF;
+}
+
+/* ---------------- Wiki ---------------- */
+
+/* Create page form */
+
+.path-mod-wiki .mform fieldset {
+    border: 1px #B3B3B3 solid;
+    background: #FFFFFF;
+}
+
+/* Editing the wiki */
+
+.wiki_headingtitle {
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+}
+
+.path-mod-wiki h2.main, h3.main, h4.main {
+    margin: 0;
+    padding: 0.5em 0 0.5em;
+    text-align: center;
+    background: #FFFFFF;
+    color: #000000;
+    border: none;
+}
+
+.wiki_right a {
+    color: #ab8a2d;
+}
+
+/* Comments page */
+
+.midpad {
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+/* History and map pages table */
+
+.path-mod-wiki thead {
+    background: #E3E3E3;
+    border: 1px #B3B3B3 solid;
+}
+
+.path-mod-wiki tbody {
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+}
+
+.wiki_difftime, .wiki_headingtime {
+    color: #FFFFFF;
+}
+
+/* ---------------- Workshop ---------------- */
+
+.path-mod-workshop .collapsibleregioncaption {
+    font-size: 120%;
+    font-weight: bold;
+    background: #FFFFFF;
+}
+
+/* Workshop table */
+
+.path-mod-workshop .userplan th {
+    border-top: 1px #B3B3B3 solid;
+    border-bottom: 1px #B3B3B3 solid;
+    background: #E3E3E3;
+    color: #4C4C4C;
+    padding: 3px;
+    vertical-align: bottom;
+    white-space: normal;
+}
+
+.path-mod-workshop .userplan td {
+    background: #FFFFFF;
+    border-right: 1px solid #E3E3E3;
+    vertical-align: top;
+    width: 20%;
+}
+
+/* Active cell */
+
+.path-mod-workshop .userplan th.active {
+    background: #FFCC66;
+    border-left: 1px solid #E3E3E3;
+    color: black;
+    font-size: 140%;
+    vertical-align: top;
+}
+
+.path-mod-workshop .userplan td.active {
+    background: #FFCC66;
+    border-left: 1px solid #E3E3E3;
+    border-right: 1px solid #E3E3E3;
+}
+
+/* ---------------- Folder ---------------- */
+
+.path-mod-folder h2.main, h3.main, h4.main {
+    margin: 0;
+    padding: 0.5em 0 0.5em;
+    text-align: center;
+    background: #FFFFFF;
+    border: none;
+}
+
+.path-mod-folder #pageintro {
+    background: #FFFFFF;
+    border: 1px #B3B3B3 solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    margin: 10px auto;
+    width: 75%;
+}
+
+/* ---------------- Page Footer ---------------- */
+
+#page-footer {
+    font-size: 0.9em;
+    text-align: center;
+    clear: both;
+    float: left;
+    width: 100%;
+    background: #0D6606;
+    border-top: 1px #0D6606 solid;
+}
+
+/* Login info at the bottom */
+
+#page-footer .logininfo {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#page-footer .logininfo a {
+    color: #ab8a2d;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#page-footer .logininfo a:hover {
+    color: #ab8a2d;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#page-footer .helplink a {
+    color: #ab8a2d;
+}
+
+#page-footer .homelink a {
+    color: #FFFFFF;
+}
+
+/* ---------------- Dock ---------------- */
+
+body.has_dock { 
+    margin-left: 30px;
+}
+
+#dock { 
+    left: 0%;
+    margin-left: 0px;
+    border-width: 0;
+    background: #FFFFFF url([[pix:theme|vgradientgold]]) repeat-y top right;
+}
+
+/* The undock all button at the bottom of dock items */
+
+#dock .controls { 
+    bottom: auto;
+    background-color: transparent;
+}
+
+#dock .dockeditem_container { 
+    position: relative;
+}
+
+/* Margin at the very top of the docked items */
+
+#dock .dockeditem.firstdockitem { 
+    margin-top: 5px;
+}
+
+#dock .dockeditem { 
+    background-color: transparent;
+    padding: 0px;
+    padding-right: 0px;
+}
+
+#dock .dockedtitle { 
+    border-width: 0;
+}
+
+#dock .dockedtitle h2 { 
+    margin: 0;
+    padding: 10px 3px;
+}
+
+/* Color when hovering over a dock item */
+
+#dock .dockedtitle.activeitem { 
+    background-color: #FFCC66;
+    width: 30px;
+}
+
+/* This creates a 2px border at the bottom and must be included to overwrite the parent theme */
+
+#dockeditempanel { 
+    background: none;
+    margin-left: 0px;
+}
+
+/* Content in docked menu */
+
+#dockeditempanel .dockeditempanel_content { 
+    background-color: #FFFFFF;
+    margin: 0px;
+    position: relative;
+    top: -3px;
+    min-height: 100px;
+    border-color: #B3B3B3;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 0px;
+}
+
+/* Heading in docked menu */
+
+#dockeditempanel .dockeditempanel_hd { 
+    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x top left;
+    border-width: 0;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 0px;
+    padding-right: 6px;
+}
+
+#dockeditempanel .dockeditempanel_hd h2 { 
+    font-size: 1em;
+    color: #000000;
+}
+
+/* ---------------- Custommenu ---------------- */
+
+/*cutom menu */
+/*YUI Reset */
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-content,
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label,
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label-active,
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menuitem-active .yui3-menuitem-content,
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label-menuvisible {background-position: -10000px -10000px;}
+.yui3-skin-sam #page .yui3-menu-label,
+.yui3-skin-sam #page .yui3-menu .yui3-menu .yui3-menu-label,
+.yui3-skin-sam #page .yui3-menubuttonnav .yui3-menu-label em {background-position: right center;}
+.yui3-skin-sam #page .yui3-splitbuttonnav .yui3-menu-label .yui3-menu-toggle {background-position: 3px center;}
+.yui3-skin-sam #page .yui3-splitbuttonnav .yui3-menu-label-menuvisible .yui3-menu-toggle {background-position: 0% 50%;}
+
+#custommenu {
+    clear: both;
+    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x bottom left;
+    border: 1px #B3B3B3 solid;
+    margin-bottom: 5px;
+}
+
+.yui3-skin-sam #page .yui3-menu-label,
+.yui3-skin-sam #page .yui3-menuitem-content  {
+    color: #000000;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.custom_menu_submenu .yui3-menu-label,
+.custom_menu_submenu .yui3-menuitem-content {
+    color: #000 !important;
+    text-shadow: none !important;
+    line-height: 25px;
+}
+
+.yui3-skin-sam #page .yui3-menu-label.yui3-menu-label-active,
+.yui3-skin-sam #page .yui3-menu-label.yui3-menu-label-menuvisible,
+.yui3-skin-sam #page .yui3-menuitem-active .yui3-menuitem-content {
+    color: #000;
+    background-color: #FFCC66;
+    border: none;
+}
+
+.yui3-skin-sam #page .yui3-menu-content,
+.yui3-skin-sam #page .yui3-menu-content,
+.yui3-skin-sam #page .yui3-menu .yui3-menu .yui3-menu-content,
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label,
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menuitem-content  {
+    border: none !important;
+}
+
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
+    border-color:#B3B3B3;
+    border-style:solid;
+    border-width:0px;
+}
+
+#page .custom_menu_submenu {
+    border: 1px solid #B3B3B3 !important;
+    background: #FFFFFF;
+     -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0px 1px 2px #E3E3E3;
+    -moz-box-shadow: 0px 1px 2px #E3E3E3;
+    box-shadow: 0px 1px 2px #E3E3E3;
+}
