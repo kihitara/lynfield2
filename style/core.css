@@ -2,7 +2,7 @@
 
 body { 
     font-family: Helvetica, "Arial", Tahoma, sans-serif;
-    color: #000000;
+    color: #FFFFFF;
     padding: 0;
     background: #0D6606 url([[pix:theme|crest]]) no-repeat;
     background-attachment: fixed;
@@ -20,12 +20,12 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
 }
 
 a { 
-    color: #0D6606;
+    color: #ab8a2d;
 }
 
 a:hover { 
     text-decoration: none;
-    color: #ab8a2d;
+    color: #aba827;
 }
 
 #page-admin-index .copyright {
@@ -74,7 +74,7 @@ a:hover {
 .navbar {
     clear: both;
     overflow: hidden;
-    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x bottom left;
+    background: #c2a44c url([[pix:theme|hgradientgold]]) repeat-x bottom left;
     border: 1px #B3B3B3 solid;
     padding-left: 10px;
     padding-top: 2px;
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .navbar a:hover {
-    color: #0D6606;
+    color: #1b6b0a;
     text-decoration: underline;
 }
 
@@ -110,7 +110,7 @@ a:hover {
 
 
 #page-site-index .headingblock {
-    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x top left;
+    background: #c2a44c url([[pix:theme|hgradientgold]]) repeat-x top left;
     border: 1px #B3B3B3 solid;
     margin-bottom: 9px;
     margin-top: 9px;
@@ -121,10 +121,19 @@ a:hover {
 
 #page-site-index div.course_category_tree {
     background: #FFFFFF;
+    color: #000000;
     border: 1px #B3B3B3 solid;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 6px;
+}
+
+#page-site-index div.course_category_tree a {
+    color: #1b6b0a;
+}
+
+#page-site-index div.course_category_tree a:hover {
+    color: #aba827;
 }
 
 /* Course search box */
@@ -148,6 +157,14 @@ a:hover {
     border-bottom-right-radius: 15px;
 }
 
+#page-course-category .generalbox a {
+    color: #1b6b0a;
+}
+
+#page-course-category .generalbox a:hover {
+    color: #aba827;
+}
+
 /* ---------------- Course categories index ---------------- */
 
 /* Category list */
@@ -155,10 +172,19 @@ a:hover {
 .categorybox {
     border: medium none;
     background: #FFFFFF;
+    color: #000000;
     border: 1px #B3B3B3 solid;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 10px;
+}
+
+.categorybox a {
+    color: #1b6b0a;
+}
+
+.categorybox a:hover {
+    color: #aba827;
 }
 
 /* Course list */
@@ -166,6 +192,7 @@ a:hover {
 .coursebox {
     border: 1px #B3B3B3 solid;
     background: #FFFFFF;
+    color: #000000;
     margin-bottom: 15px;
     width: 96%;
     border-bottom-left-radius: 15px;
@@ -173,31 +200,59 @@ a:hover {
     padding: 10px;
 }
 
+.coursebox a {
+    color: #1b6b0a;
+}
+
+.coursebox a:hover {
+    color: #aba827;
+}
+
 /* ---------------- Profile ---------------- */
 
 .descriptionbox {
     border: 1px solid #B3B3B3;
     background: #FFFFFF;
+    color: #000000;
     margin-left: 110px;
     padding: 10px;
+}
+
+.descriptionbox a {
+    color: #1b6b0a;
+}
+
+.descriptionbox a:hover {
+    color: #aba827;
 }
 
 /* ---------------- Messaging ---------------- */
 
 .messagearea, .contactselector {
     background: #FFFFFF;
+    color: #000000;
+}
+
+.messagearea, .contactselector a {
+    color: #1b6b0a;
+}
+
+.messagearea, .contactselector a:hover {
+    color: #aba827;
 }
 
 /* ---------------- Calendar ---------------- */
 
 .maincalendar {
     background: #FFFFFF;
+    color: #000000;
 }
 
 /* ---------------- Blog ---------------- */
 
 .blog_entry {
     background: #FFFFFF;
+    color: #000000;
 }
 
 /* ---------------- Tags ---------------- */
@@ -225,7 +280,7 @@ a:hover {
     padding-bottom: 2px;
     padding-left: 6px;
     padding-right: 2px;
-    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x top left;
+    background: #c2a44c url([[pix:theme|hgradientgold]]) repeat-x top left;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -280,6 +335,7 @@ a:hover {
     border: 1px #B3B3B3 solid;
     margin-bottom: 1em;
     background: #FFFFFF;
+    color: #000000;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 0px;
@@ -339,7 +395,7 @@ a:hover {
 /* "Topic outline" heading block */
 
 .headingblock { 
-    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x top left;
+    background: #c2a44c url([[pix:theme|hgradientgold]]) repeat-x top left;
     font-weight: normal;
     border: 1px #B3B3B3 solid;
     padding: 2px 6px;
@@ -365,13 +421,31 @@ a:hover {
 .course-content .content {
     padding: 10px;
     background: #FFFFFF;
+    color: #000000;
+}
+
+.course-content .content a {
+    color: #1b6b0a;
+}
+
+.course-content .content a:hover {
+    color: #aba827;
 }
 
 /* General topic */
 
 .course-content .main {
     background: #FFFFFF;
+    color: #000000;
     border: 1px #B3B3B3 solid;
+}
+
+.course-content .main a {
+    color: #1b6b0a;
+}
+
+.course-content .main a:hover {
+    color: #aba827;
 }
 
 /* Highlighted topic */
@@ -385,8 +459,17 @@ a:hover {
 
 .course-content .hidden {
     background: #FFFFFF;
+    color: #000000;
     border: 2px #B3B3B3 dashed;
     opacity: 0.5;
+}
+
+.course-content .hidden a {
+    color: #1b6b0a;
+}
+
+.course-content .hidden a:hover {
+    color: #aba827;
 }
 
 /* Completion tick boxes */
@@ -407,6 +490,7 @@ a:hover {
 .mform fieldset div {
     margin: 0 10px 10px;
     background: #FFFFFF;
+    color: #000000;
 }
 
 .initialbar a {
@@ -427,6 +511,15 @@ a:hover {
 
 #page-report-outline-user .section {
     background: #FFFFFF;
+    color: #000000;
+}
+
+#page-report-outline-user .section a {
+    color: #1b6b0a;
+}
+
+#page-report-outline-user .section a:hover {
+    color: #aba827;
 }
 
 .paging {
@@ -456,17 +549,39 @@ a:hover {
     margin-top: 10px;
     padding: 5px;
     background: #FFFFFF;
+    color: #000000;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+#intro a,
+.path-mod-assignment #intro a,
+.path-mod-forum #intro a {
+    color: #1b6b0a;
+}
+
+#intro a:hover,
+.path-mod-assignment #intro a:hover,
+.path-mod-forum #intro a:hover {
+    color: #aba827;
 }
 
 /* Backgrounds behind some text within activities */
 
 .generalbox {
     background: #FFFFFF;
+    color: #000000;
     border: 1px #B3B3B3 solid;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.generalbox a {
+    color: #1b6b0a;
+}
+
+.generalbox a:hover {
+    color: #aba827;
 }
 
 /* Group selector */
@@ -475,6 +590,7 @@ a:hover {
     margin-bottom: 3px;
     margin-top: 3px;
     background: #FFFFFF;
+    color: #000000;
     border: none;
 }
 
@@ -511,10 +627,12 @@ h2.main, h3.main, h4.main {
 
 .mform fieldset legend {
     background: #FFFFFF;
+    color: #000000;
 }
 
 .mform fieldset {
     background: #FFFFFF;
+    color: #000000;
 }
 
 #page-content #region-main-box .region-content {
@@ -553,12 +671,28 @@ h2.main, h3.main, h4.main {
     color: #000000;
 }
 
+.path-mod-forum .forumheaderlist td a {
+    color: #1b6b0a;
+}
+
+.path-mod-forum .forumheaderlist td a:hover {
+    color: #aba827;
+}
+
 /* Discussion threads */
 
 /* Border around the whole reply */
 
 .forumpost {
     border: 1px #B3B3B3 solid;
+}
+
+.forumpost a {
+    color: #1b6b0a;
+}
+
+.forumpost a:hover {
+    color: #aba827;
 }
 
 /* General reply boxes */
@@ -569,10 +703,12 @@ h2.main, h3.main, h4.main {
 
 .forumpost .content {
     background: #FFFFFF;
+    color: #000000;
 }
 
 .forumpost .commands {
     background: #E3E3E3;
+    color: #000000;
     padding-right: 5px;
 }
 
@@ -588,6 +724,7 @@ h2.main, h3.main, h4.main {
 
 .forumpost.unread .content {
     background: #FFFFFF;
+    color: #000000;
 }
 
 .forumpost.unread .commands {
@@ -630,6 +767,7 @@ h2.main, h3.main, h4.main {
 .path-mod-choice .results td {
     border: 1px #B3B3B3 solid;
     background: #FFFFFF;
+    color: #000000;
 }
 
 .path-mod-choice .lastrow td {
@@ -666,6 +804,7 @@ h2.main, h3.main, h4.main {
 
 .datapreferences {
     background: #FFFFFF;
+    color: #000000;
     border: none;
 }
 
@@ -713,6 +852,7 @@ h2.main, h3.main, h4.main {
 .path-mod-glossary .entrybox {
     border: 1px #B3B3B3 solid;
     background: #FFFFFF;
+    color: #000000;
     width: 99%;
 }
 
@@ -721,6 +861,7 @@ h2.main, h3.main, h4.main {
 .tabtree .tabrow0 li a {
     border: 1px #B3B3B3 solid;
     background: #FFFFFF;
+    color: #000000;
 }
 
 .tabtree .tabrow0 ul, .tabtree .tabrow0 div {
@@ -746,6 +887,7 @@ h2.main, h3.main, h4.main {
 
 .path-mod-lesson div.box.contents {
     background: #FFFFFF;
+    color: #000000;
     border: 1px #B3B3B3 solid;
 }
 
@@ -774,6 +916,7 @@ h2.main, h3.main, h4.main {
 
 .que .formulation {
     background: #FFFFFF;
+    color: #000000;
     border: none;
 }
 
@@ -799,6 +942,7 @@ h2.main, h3.main, h4.main {
     border: 1px solid #B3B3B3;
     border-collapse: collapse;
     background: #FFFFFF;
+    color: #000000;
 }
 
 .quizattemptcounts p {
@@ -834,6 +978,7 @@ table.quizreviewsummary th.cell {
 
 table.quizreviewsummary td.cell {
     background: #FFFFFF;
+    color: #000000;
     border: 1px solid #B3B3B3;
     padding: 1px 1em 1px 0.5em;
     text-align: left;
@@ -842,6 +987,7 @@ table.quizreviewsummary td.cell {
 .path-mod-quiz .mform fieldset {
     border: 1px #B3B3B3 solid;
     background: #FFFFFF;
+    color: #000000;
 }
 
 /* Editing quiz page */
@@ -897,6 +1043,7 @@ table.quizreviewsummary td.cell {
 
 h3.questiontext {
     background: #FFFFFF;
+    color: #000000;
     border: 1px #B3B3B3 solid;
     width: 90%;
 }
@@ -905,6 +1052,7 @@ h3.questiontext {
 
 .path-mod-survey table {
     background: #FFFFFF;
+    color: #000000;
 }
 
 /* ---------------- Wiki ---------------- */
@@ -914,6 +1062,7 @@ h3.questiontext {
 .path-mod-wiki .mform fieldset {
     border: 1px #B3B3B3 solid;
     background: #FFFFFF;
+    color: #000000;
 }
 
 /* Editing the wiki */
@@ -921,6 +1070,7 @@ h3.questiontext {
 .wiki_headingtitle {
     text-align: center;
     background: #FFFFFF;
+    color: #000000;
     border: none;
 }
 
@@ -944,17 +1094,20 @@ h3.questiontext {
     margin-top: 0.4em;
     text-align: center;
     background: #FFFFFF;
+    color: #000000;
 }
 
 /* History and map pages table */
 
 .path-mod-wiki thead {
     background: #E3E3E3;
+    color: #000000;
     border: 1px #B3B3B3 solid;
 }
 
 .path-mod-wiki tbody {
     background: #FFFFFF;
+    color: #000000;
     border: 1px #B3B3B3 solid;
 }
 
@@ -968,6 +1121,7 @@ h3.questiontext {
     font-size: 120%;
     font-weight: bold;
     background: #FFFFFF;
+    color: #000000;
 }
 
 /* Workshop table */
@@ -984,6 +1138,7 @@ h3.questiontext {
 
 .path-mod-workshop .userplan td {
     background: #FFFFFF;
+    color: #000000;
     border-right: 1px solid #E3E3E3;
     vertical-align: top;
     width: 20%;
@@ -1001,6 +1156,7 @@ h3.questiontext {
 
 .path-mod-workshop .userplan td.active {
     background: #FFCC66;
+    color: #000000;
     border-left: 1px solid #E3E3E3;
     border-right: 1px solid #E3E3E3;
 }
@@ -1012,11 +1168,13 @@ h3.questiontext {
     padding: 0.5em 0 0.5em;
     text-align: center;
     background: #FFFFFF;
+    color: #000000;
     border: none;
 }
 
 .path-mod-folder #pageintro {
     background: #FFFFFF;
+    color: #000000;
     border: 1px #B3B3B3 solid;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -1129,6 +1287,7 @@ body.has_dock {
 
 #dockeditempanel .dockeditempanel_content { 
     background-color: #FFFFFF;
+    color: #000000;
     margin: 0px;
     position: relative;
     top: -3px;
@@ -1143,7 +1302,7 @@ body.has_dock {
 /* Heading in docked menu */
 
 #dockeditempanel .dockeditempanel_hd { 
-    background: #FFFFFF url([[pix:theme|hgradientgold]]) repeat-x top left;
+    background: #c2a44c url([[pix:theme|hgradientgold]]) repeat-x top left;
     border-width: 0;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
