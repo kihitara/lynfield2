@@ -1299,6 +1299,14 @@ body.has_dock {
     border-top-left-radius: 0px;
 }
 
+#dockeditempanel .dockeditempanel_content a {
+    color: #1b6b0a;
+}
+
+#dockeditempanel .dockeditempanel_content a:hover {
+    color: #aba827;
+}
+
 /* Heading in docked menu */
 
 #dockeditempanel .dockeditempanel_hd { 
@@ -1314,6 +1322,16 @@ body.has_dock {
 #dockeditempanel .dockeditempanel_hd h2 { 
     font-size: 1em;
     color: #000000;
+}
+
+/** Allows word-wrapping in dock **/
+#dockeditempanel .dockeditempanel_bd {
+    white-space: normal;
+}
+
+/** Fixes the issue where nav block doesn't word-wrap in dock **/
+.dock .block_navigation .tree_item {
+    white-space: normal;
 }
 
 /* ---------------- Custommenu ---------------- */
