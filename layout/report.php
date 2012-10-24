@@ -72,7 +72,7 @@ echo $OUTPUT->doctype() ?>
                 <div id="page-content">
                     <div id="report-main-content">
                         <div class="region-content">
-                            <?php echo core_renderer::MAIN_CONTENT_TOKEN ?>
+                            <?php echo method_exists($OUTPUT, "main_content")?$OUTPUT->main_content():core_renderer::MAIN_CONTENT_TOKEN ?>
                         </div>
                     </div>
                     <?php if ($hassidepre) { ?>
